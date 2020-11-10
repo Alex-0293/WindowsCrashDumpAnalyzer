@@ -1,4 +1,4 @@
-<#
+﻿<#
     .SYNOPSIS
         WindowsCrashDumpAnalyzer
     .DESCRIPTION
@@ -29,7 +29,7 @@ if ($env:AlexKFrameworkInitScript){
 if ($LastExitCode) { exit 1 }
 
 $Global:gsGitMetaData.Commit  = $true
-$Global:gsGitMetaData.Message = "[Add] find crash event details on remote URL."
+$Global:gsGitMetaData.Message = "[Fix] time format in interval header."
 $Global:gsGitMetaData.Branch  = "master"
 
 # Error trap
@@ -258,7 +258,7 @@ $ErrorGroups = $EventId1001Object | Group-Object ErrorCode | Sort-Object Count -
 
 [string[]] $Report = @()
 $Report += "Generated: [$(Get-Date -Format $Global:gsGlobalDateTimeFormat)]"
-$Report += "Interval:  [$(($EventId1001Object | Sort-Object date | Select-Object -first 1).Date)-$(($EventId1001Object | Sort-Object date -Descending | Select-Object -first 1).Date)]"
+$Report += "Interval:  [$(($EventId1001Object | Sort-Object date | Select-Object -first 1).Date.ToString($Global:gsGlobalDateTimeFormat)) - $(($EventId1001Object | Sort-Object date -Descending | Select-Object -first 1).Date.ToString($Global:gsGlobalDateTimeFormat))]"
 $Report += "By:        [$($Global:gsRunningCredentials.Name)]"
 $Report += "Host:      [$Computer]"
 $Report += "======================"

@@ -5,11 +5,9 @@
 
 
 ######################### no replacement ########################
-[string] $Global:Computer =          
-
+[string] $Global:Computer                 =          
 [string] $Global:BugCheckCodeReferenceURL = ""         
-
-[string] $Global:ReportFilePath = ""         
+[string] $Global:ReportFilePath           = ""         
 
 
 [bool]  $Global:LocalSettingsSuccessfullyLoaded  = ""         
