@@ -1,0 +1,20 @@
+######################### local section #####################
+
+######################### value replacement #####################
+
+
+
+######################### no replacement ########################
+[string] $Global:Computer =          
+
+[string] $Global:BugCheckCodeReferenceURL = ""         
+
+[string] $Global:ReportFilePath = ""         
+
+
+[bool]  $Global:LocalSettingsSuccessfullyLoaded  = ""         
+# Error trap
+trap {
+    $Global:LocalSettingsSuccessfullyLoaded = ""         
+    exit 1
+}

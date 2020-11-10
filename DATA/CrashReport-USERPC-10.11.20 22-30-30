@@ -1,0 +1,142 @@
+Generated: [10.11.2020 22:31:34]
+Interval:  [08/24/2020 16:13:52-11/10/2020 21:11:40]
+By:        [USERPC\Alex]
+Host:      [USERPC]
+======================
+
+
+Header:    [Bug Check 0x1A: MEMORY_MANAGEMENT]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1a--memory-management]
+Count:     [14]
+    10.11.2020 21:11:40
+    08.11.2020 16:47:04
+    07.11.2020 12:23:03
+    06.11.2020 14:54:04
+    02.11.2020 11:50:19
+    25.10.2020 16:44:07
+    17.10.2020 18:42:30
+    17.10.2020 11:53:29
+    09.10.2020 13:58:08
+    08.10.2020 18:24:00
+    26.09.2020 23:57:12
+    19.09.2020 13:11:02
+    18.09.2020 23:14:36
+    24.08.2020 16:13:52
+    
+
+Header:    [Bug Check 0x50: PAGE_FAULT_IN_NONPAGED_AREA]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x50--page-fault-in-nonpaged-area]
+Count:     [4]
+    24.10.2020 11:41:00
+    20.10.2020 14:21:28
+    20.09.2020 13:26:16
+    10.09.2020 11:01:55
+    
+
+Header:    [Bug Check 0xEF: CRITICAL_PROCESS_DIED]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xef--critical-process-died]
+Count:     [3]
+    06.11.2020 23:21:01
+    23.09.2020 12:07:38
+    18.09.2020 21:04:56
+    
+
+Header:    [Bug Check 0x3B: SYSTEM_SERVICE_EXCEPTION]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3b--system-service-exception]
+Count:     [2]
+    04.10.2020 11:15:08
+    03.10.2020 00:22:48
+    
+
+Header:    [Bug Check 0x7E: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x7e--system-thread-exception-not-handled]
+Count:     [1]
+    09.09.2020 11:54:33
+    
+
+Header:    [Bug Check 0xC2: BAD_POOL_CALLER]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc2--bad-pool-caller]
+Count:     [1]
+    23.10.2020 10:29:13
+    
+
+Header:    [Bug Check 0x12B: FAULTY_HARDWARE_CORRUPTED_PAGE]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12b---faulty-hardware-corrupted-page]
+Count:     [1]
+    09.09.2020 22:42:23
+    
+
+Header:    [Bug Check 0x13A: KERNEL_MODE_HEAP_CORRUPTION]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13a--kernel-mode-heap-corruption]
+Count:     [1]
+    20.09.2020 15:01:14
+    
+
+Header:    [Bug Check 0x154: UNEXPECTED_STORE_EXCEPTION]
+Error:     [The computer has rebooted from a bugcheck]
+DocURL:    [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x154--unexpected-store-exception]
+Count:     [1]
+    10.09.2020 17:37:24
+    
+
+Unique errors: [16]
+
+ErrorCode  Param1             DocURL                                                                                                                 SearchURL
+---------  ------             ------                                                                                                                 ---------                                                        
+0x0000001a 0x000000000000003f https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1a--memory-management                   https://duckduckgo.com/?q=Windows+10+Bug+Check+0x0000001a+0x0000…
+0x0000001a 0x0000000000041792 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1a--memory-management                   https://duckduckgo.com/?q=Windows+10+Bug+Check+0x0000001a+0x0000…
+0x0000003b 0x00000000c0000005 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3b--system-service-exception            https://duckduckgo.com/?q=Windows+10+Bug+Check+0x0000003b+0x0000…
+0x0000003b 0x00000000c0000420 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3b--system-service-exception            https://duckduckgo.com/?q=Windows+10+Bug+Check+0x0000003b+0x0000…
+0x00000050 0xffff9207bd665d40 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x50--page-fault-in-nonpaged-area         https://duckduckgo.com/?q=Windows+10+Bug+Check+0x00000050+0xffff…
+0x00000050 0xffffb98417536a98 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x50--page-fault-in-nonpaged-area         https://duckduckgo.com/?q=Windows+10+Bug+Check+0x00000050+0xffff…
+0x00000050 0xffffd909da3c8cc8 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x50--page-fault-in-nonpaged-area         https://duckduckgo.com/?q=Windows+10+Bug+Check+0x00000050+0xffff…
+0x00000050 0xfffffb1e806211f0 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x50--page-fault-in-nonpaged-area         https://duckduckgo.com/?q=Windows+10+Bug+Check+0x00000050+0xffff…
+0x0000007e 0xffffffffc0000005 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x7e--system-thread-exception-not-handled https://duckduckgo.com/?q=Windows+10+Bug+Check+0x0000007e+0xffff…
+0x000000c2 0x0000000000000046 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc2--bad-pool-caller                     https://duckduckgo.com/?q=Windows+10+Bug+Check+0x000000c2+0x0000…
+0x000000ef 0xffffad85f7ae5080 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xef--critical-process-died               https://duckduckgo.com/?q=Windows+10+Bug+Check+0x000000ef+0xffff…
+0x000000ef 0xffffe003c2fa7080 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xef--critical-process-died               https://duckduckgo.com/?q=Windows+10+Bug+Check+0x000000ef+0xffff…
+0x000000ef 0xffffe08f76742080 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xef--critical-process-died               https://duckduckgo.com/?q=Windows+10+Bug+Check+0x000000ef+0xffff…
+0x0000012b 0xffffffffc00002c4 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12b---faulty-hardware-corrupted-page    https://duckduckgo.com/?q=Windows+10+Bug+Check+0x0000012b+0xffff…
+0x0000013a 0x0000000000000012 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13a--kernel-mode-heap-corruption        https://duckduckgo.com/?q=Windows+10+Bug+Check+0x0000013a+0x0000…
+0x00000154 0xffffa886d8f50000 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x154--unexpected-store-exception         https://duckduckgo.com/?q=Windows+10+Bug+Check+0x00000154+0xffff…
+
+
+
+Errors by date: [28]
+10.11.2020 21:11:40
+08.11.2020 16:47:04
+07.11.2020 12:23:03
+06.11.2020 23:21:01
+06.11.2020 14:54:04
+02.11.2020 11:50:19
+25.10.2020 16:44:07
+24.10.2020 11:41:00
+23.10.2020 10:29:13
+20.10.2020 14:21:28
+17.10.2020 18:42:30
+17.10.2020 11:53:29
+09.10.2020 13:58:08
+08.10.2020 18:24:00
+04.10.2020 11:15:08
+03.10.2020 00:22:48
+26.09.2020 23:57:12
+23.09.2020 12:07:38
+20.09.2020 15:01:14
+20.09.2020 13:26:16
+19.09.2020 13:11:02
+18.09.2020 23:14:36
+18.09.2020 21:04:56
+10.09.2020 17:37:24
+10.09.2020 11:01:55
+09.09.2020 22:42:23
+09.09.2020 11:54:33
+24.08.2020 16:13:52
+
