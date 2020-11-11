@@ -27,11 +27,11 @@ if ($env:AlexKFrameworkInitScript){
      exit 1
 }
 if ($LastExitCode) { exit 1 }
-
-$Global:gsGitMetaData.Commit  = $true
+#######################################  Git  #######################################
+$Global:gsGitMetaData.Commit  = $False
 $Global:gsGitMetaData.Message = "[Fix] time format in interval header."
 $Global:gsGitMetaData.Branch  = "master"
-
+#####################################################################################
 # Error trap
 trap {
     if (get-module -FullyQualifiedName AlexkUtils) {
